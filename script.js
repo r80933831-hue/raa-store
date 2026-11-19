@@ -1,0 +1,1 @@
+document.querySelectorAll('.menu-toggle').forEach(button=>{button.addEventListener('click',()=>{const nav=document.querySelector('.nav-links');const open=nav.classList.toggle('open');button.setAttribute('aria-expanded',String(open));button.textContent=open?'×':'☰';});});
